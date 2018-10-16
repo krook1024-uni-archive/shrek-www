@@ -1,0 +1,33 @@
+---
+title: krook
+output:
+  html_document:
+    theme: simplex
+---
+
+--------
+
+
+<div class="row">
+
+<div class="col-md-9">
+# 'bout me
+
+I study computer science.
+
+# My stuff
+
++ My GitHub: [krook1024](https://github.com/krook1024)
++ My dotfiles: [gh/archrice](https://github.com/krook1024/archrice/)
++ Uni-related stuff: [gh/Uni](https://github.com/krook1024/Uni)
+</div>
+
+
+<div class="col-md-3">![](shrek.png)</div>
+</div>
+
+--------
+
+&copy; 2018
+
+Created in R Markdown.

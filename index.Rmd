@@ -2,11 +2,10 @@
 title: "krook"
 ---
 
-
 <div class="row">
 
-<div class="col-md-9">
-# 'bout me
+<div class="col-sm-6">
+# About me
 
 I study computer science.
 
@@ -17,15 +16,8 @@ I study computer science.
 + My GitHub: [krook1024](https://github.com/krook1024)
 + My dotfiles: [gh/archrice](https://github.com/krook1024/archrice/)
 + Uni-related stuff: [gh/Uni](https://github.com/krook1024/Uni)
-+ Kaparós kódok: [katt](kaparos.html)
 </div>
 
+<div class="col-sm-6">![](shrek.png)</div>
 
-<div class="col-md-3">![](shrek.png)</div>
 </div>
-
---------
-
-&copy; 2018
-
-Created in R Markdown.

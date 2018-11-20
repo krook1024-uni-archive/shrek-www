@@ -2,7 +2,7 @@
 title: Betűkódok
 ---
 
-<div class="container">
+Három azonos betű kell a nyeréshez. A nyeremények a következőképp alakulnak:
 <div class="row">
 <div class="col-sm-6">
 # Fáraók kincse
@@ -25,6 +25,5 @@ title: Betűkódok
 
 - **Z:** 500
 - **Y:** 1000
-</div>
 </div>
 </div>

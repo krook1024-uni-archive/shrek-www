@@ -1,15 +1,3 @@
----
-title: krook
-output:
-  html_document:
-    theme: simplex
-    includes:
-       in_header: header.html
----
-
---------
-
-
 <div class="row">
 
 <div class="col-md-9">

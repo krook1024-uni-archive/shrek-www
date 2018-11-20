@@ -1,4 +1,5 @@
 name: "krook"
+output_dir: "."
 navbar:
   title: "krook"
   left:
@@ -6,3 +7,9 @@ navbar:
       href: index.html
     - text: "Kaparós"
       href: kaparos.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    includes:
+        - in_header: header.html

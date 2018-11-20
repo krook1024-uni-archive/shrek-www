@@ -7,7 +7,7 @@ title: "krook"
 <div class="col-sm-6">
 # About me
 
-I study computer science.
+I study computer science at [#DEIK](https://unideb.hu).
 
 <a class="github-button" href="https://github.com/krook1024" data-size="large" aria-label="Follow @krook1024 on GitHub">Follow @krook1024</a>
 

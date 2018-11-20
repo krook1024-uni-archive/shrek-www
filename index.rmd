@@ -24,6 +24,7 @@ I study computer science.
 + My GitHub: [krook1024](https://github.com/krook1024)
 + My dotfiles: [gh/archrice](https://github.com/krook1024/archrice/)
 + Uni-related stuff: [gh/Uni](https://github.com/krook1024/Uni)
++ Kaparós kódok: [katt](kaparos.html)
 </div>
 
 

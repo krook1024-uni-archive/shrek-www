@@ -1,0 +1,8 @@
+name: "krook"
+navbar:
+  title: "krook"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Kaparós"
+      href: kaparos.html

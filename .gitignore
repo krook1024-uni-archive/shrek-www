@@ -1,6 +1,10 @@
 vids/
-phpinfo.php
 win/
 phpproxy/
+site_libs/
+
 *.html
 *.Rhistory
+phpinfo.php
+
+

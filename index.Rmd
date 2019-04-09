@@ -15,7 +15,7 @@ I study computer science at [#DEIK](https://unideb.hu).
 
 + My GitHub: [krook1024](https://github.com/krook1024)
 + My dotfiles: [gh/arch](https://github.com/krook1024/arch/)
-+ BME szoftverfejlesztés C++ nyelven: [letöltés](http://shrek.unideb.hu/~krook/dl/Levendovszky%20-%20Szoftverfejleszt%c3%a9s%20C++%20nyelven.pdf)
++ BME szoftverfejlesztés C++ nyelven: [⬇ letöltés](http://shrek.unideb.hu/~krook/dl/Levendovszky%20-%20Szoftverfejleszt%c3%a9s%20C++%20nyelven.pdf)
 </div>
 
 <div class="col-sm-6">![](shrek.png)</div>

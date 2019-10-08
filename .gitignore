@@ -3,7 +3,6 @@ win/
 phpproxy/
 site_libs/
 
-*.html
 *.Rhistory
 phpinfo.php
 

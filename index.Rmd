@@ -16,7 +16,7 @@ I study Computer Sciene at [#DEIK](https://unideb.hu).
 + My dotfiles: [gh/arch](https://github.com/krook1024/arch/)
 </div>
 
-<div class="col-12 col-md-4">![](shrek.png)</div>
+<div class="col-12 col-md-4 d-none d-md-block">![](shrek.png)</div>
 
 <div class="col-12 col-md-4">
 

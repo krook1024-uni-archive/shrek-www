@@ -14,4 +14,4 @@ output:
     theme: cosmo
     highlight: textmate
     includes:
-        - in_header: header.html
+        - after_body: footer.html

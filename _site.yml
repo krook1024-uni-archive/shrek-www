@@ -1,12 +1,13 @@
 name: "krook"
-title: "Molnár Antal Albert"
 output_dir: "."
 navbar:
   title: "krook"
   left:
     - text: "Home"
+      icon: fa-home
       href: index.html
     - text: "Kaparós"
+      icon: fa-money-bill-wave
       href: kaparos.html
 output:
   html_document:

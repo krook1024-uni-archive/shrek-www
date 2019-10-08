@@ -7,7 +7,7 @@ navbar:
       icon: fa-home
       href: index.html
     - text: "Kaparós"
-      icon: fa-money-bill-wave
+      icon: fa-money-bill-alt
       href: kaparos.html
 output:
   html_document:

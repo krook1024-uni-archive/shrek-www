@@ -5,12 +5,12 @@ title: krook
 <div class="row">
 
 <div class="col-12 col-md-4">
-## About me
+## <i class="fa fa-user-tie"></i> About me
 
 I study computer science at [#DEIK](https://unideb.hu).
 <a class="github-button" href="https://github.com/krook1024" data-size="large" aria-label="Follow @krook1024 on GitHub">Follow @krook1024</a>
 
-## My stuff
+## <i class="fa fa-meteor"></i> My stuff
 
 + My GitHub: [krook1024](https://github.com/krook1024)
 + My dotfiles: [gh/arch](https://github.com/krook1024/arch/)
@@ -20,7 +20,7 @@ I study computer science at [#DEIK](https://unideb.hu).
 
 <div class="col-12 col-md-4">
 
-## Studying resources
+## <i class="fa fa-graduation-cap"></i> Studying resources
 
 + BME szoftverfejlesztés C++ nyelven: [⬇ letöltés](http://shrek.unideb.hu/~krook/dl/Levendovszky%20-%20Szoftverfejleszt%c3%a9s%20C++%20nyelven.pdf)
 </div>

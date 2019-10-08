@@ -1,7 +1,3 @@
----
-title: Betűkódok
----
-
 Három azonos betű kell a nyeréshez. A nyeremények a következőképp alakulnak:
 <div class="row">
 <div class="col-sm-6">

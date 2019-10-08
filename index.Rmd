@@ -7,7 +7,7 @@ title: krook
 <div class="col-12 col-md-4">
 ## <i class="fa fa-user-tie"></i> About me
 
-I study computer science at [#DEIK](https://unideb.hu).
+I study Computer Sciene at [#DEIK](https://unideb.hu).
 <a class="github-button" href="https://github.com/krook1024" data-size="large" aria-label="Follow @krook1024 on GitHub">Follow @krook1024</a>
 
 ## <i class="fa fa-random"></i> My stuff

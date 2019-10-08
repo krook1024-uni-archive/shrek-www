@@ -1,3 +1,7 @@
+---
+title: krook
+---
+
 <div class="row">
 
 <div class="col-12 col-md-6">
@@ -5,7 +9,7 @@
 
 I study computer science at [#DEIK](https://unideb.hu).
 
-<a class="github-button" href="https://github.com/krook1024" data-size="large" aria-label="Follow @krook1024 on GitHub">Follow @krook1024</a>
+<a class="github-button" href="https://github.com/krook1024" data-size="large" aria-label="Follow @krook1024 on GitHub">Follow @krook1024!</a>
 
 # My stuff
 
@@ -17,3 +21,5 @@ I study computer science at [#DEIK](https://unideb.hu).
 <div class="col-12 col-md-6">![](shrek.png)</div>
 
 </div>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>

@@ -1,0 +1,37 @@
+---
+title: Logikai formula helper
+includes:
+  in_header:
+      logika.js
+---
+
+<form>
+	# Formula
+
+  Gépelje be a formulát a felső mezőbe, melynek szintaktikai tulajdonságait meg
+  szeretné tekinteni. 
+
+  A logikai összekötő jelek helyett használd a következő szavakat: `and`, `or`,
+  `implies`, `not`
+
+  <input class="form-control" onkeyup="getProperties(this.value)" name="input" size="80"> 
+
+	### A formula nem teljesen zárójelezett alakja
+
+	<textarea cols=60 rows=1 name=output1></textarea>
+
+
+	### A formula logikai összetettsége
+
+	<textarea cols=60 rows=1 name=output2></textarea><br>
+
+
+	### A formula közvetlen részformulái
+
+	<textarea cols=60 rows=1 name=output3></textarea> 
+
+
+	### A formula részformulái
+
+	<textarea cols=60 rows=5 name=output4></textarea> 
+</form>

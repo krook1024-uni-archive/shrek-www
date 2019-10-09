@@ -256,13 +256,13 @@ function getProperties(str) {
 			s.push(i);
 		}
 		document.forms[0].elements['output4'].value = s.join("; ");
-		document.forms[0].elements['output5'].value = st(tree(tokenize(str)));
+		//document.forms[0].elements['output5'].value = st(tree(tokenize(str)));
 	} else {
 		document.forms[0].elements['output1'].value = "";
 		document.forms[0].elements['output2'].value = "";
 		document.forms[0].elements['output3'].value = "";
 		document.forms[0].elements['output4'].value = "";
-		document.forms[0].elements['output5'].value = "";
+		//document.forms[0].elements['output5'].value = "";
 	}
 }
 

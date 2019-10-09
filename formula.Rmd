@@ -9,7 +9,12 @@ szeretnéd megtekinteni.
 A logikai összekötő jelek helyett használd a következő szavakat: `and`, `or`,
 `implies`, `not`.
 
+<div class="form-group">
+<div class="input-group">
+<span class="input-group-addon">Formula</span>
 <input class="form-control" onkeyup="getProperties(this.value)" name="input" size="80" placeholder="Formula"/> 
+</div>
+</div>
 
 <div class="form-group">
 <label for="output1">A formula nem teljesen zárójelezett alakja</label>
@@ -30,12 +35,6 @@ A logikai összekötő jelek helyett használd a következő szavakat: `and`, `o
 <label for="output4">A formula részformuláinak halmaza</label>
 <textarea disabled class="form-control" cols="60" rows="1" name="output4" id="output4"></textarea> 
 </div>
-
-<div class="form-group">
-<label for="output5">A formula szerkezeti fája</label>
-<textarea disabled class="form-control" cols="60" rows="1" name="output5" id="output5"></textarea> 
-</div>
-</form>
 
 <script type="text/javascript" src="logika.js"></script>
 

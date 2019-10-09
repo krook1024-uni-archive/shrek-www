@@ -261,3 +261,7 @@ function getProperties(str) {
 		document.forms[0].elements['output4'].value = "";
 	}
 }
+
+function toLatex(str) {
+
+}

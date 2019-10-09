@@ -243,9 +243,16 @@ function getSubformulaSet(formula, result) {
 	return result;
 }
 
+function deleteGlyph() {
+    var elements = document.querySelectorAll('.form-control-feedback');
+    Array.prototype.forEach.call(elements, function(el, i) {
+        el.parentNode.removeChild(el);
+    });
+}
 
 
 function setSuccess() {
+    deleteGlyph();
     var input = document.forms[0].elements['input'];
     var success = document.createElement('span');
     success.setAttribute('class', 'glyphicon glyphicon-ok form-control-feedback');
@@ -256,6 +263,7 @@ function setSuccess() {
 }
 
 function setError() {
+    deleteGlyph();
     var input = document.forms[0].elements['input'];
     var err = document.createElement('span');
     err.setAttribute('class', 'glyphicon glyphicon-remove form-control-feedback');

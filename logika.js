@@ -280,7 +280,7 @@ function toLatex(str) {
     str = str.replace(/\u02c5/g, "\\lor");
     str = str.replace(/\u02c4/g, "\\land");
     str = str.replace(/\u2283/g, "\\supset");
-    console.log(str);
+    //console.log(str);
     return str;
 }
 
@@ -288,7 +288,7 @@ function getProperties(str) {
 	var formula = tree(tokenize(str));
 
 	if ( formula != null ) {
-        document.getElementById('output1').innerHTML = toLatex(toAbbrevated(formula));
+        //document.getElementById('output1').innerHTML = toLatex(toAbbrevated(formula));
 		document.forms[0].elements['output1'].value = toAbbrevated(formula);
 		document.forms[0].elements['output2'].value = getDegree(formula);
 		document.forms[0].elements['output3'].value = getImmediate(formula).join("; ");
@@ -306,11 +306,11 @@ function getProperties(str) {
 		document.forms[0].elements['output2'].value = "";
 		document.forms[0].elements['output3'].value = "";
 		document.forms[0].elements['output4'].value = "";
-        document.getElementById('output1').innerHTML = "";
+        //document.getElementById('output1').innerHTML = "";
 		//document.forms[0].elements['output5'].value = "";
         window.setError();
 	}
 
-    MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    //MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
 }
 

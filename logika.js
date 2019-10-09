@@ -273,10 +273,21 @@ function setError() {
     input.parentNode.setAttribute('class', 'input-group has-feedback has-error');
 }
 
+function toLatex(str) {
+    str = str.replace("{", "\\{");
+    str = str.replace("}", "\\}");
+    str = str.replace("\u00ac", "\\lnot");
+    str = str.replace("\u02c5", "\\lor");
+    str = str.replace("\u02c4", "\\land");
+    str = str.replace("\u2283", "\\supset");
+    return str;
+}
+
 function getProperties(str) {
 	var formula = tree(tokenize(str));
 
 	if ( formula != null ) {
+        document.getElementById('output1').innerHTML = toLatex(toAbbrevated(formula));
 		document.forms[0].elements['output1'].value = toAbbrevated(formula);
 		document.forms[0].elements['output2'].value = getDegree(formula);
 		document.forms[0].elements['output3'].value = getImmediate(formula).join("; ");
@@ -294,11 +305,9 @@ function getProperties(str) {
 		document.forms[0].elements['output2'].value = "";
 		document.forms[0].elements['output3'].value = "";
 		document.forms[0].elements['output4'].value = "";
+        document.getElementById('output1').innerHTML = "";
 		//document.forms[0].elements['output5'].value = "";
         window.setError();
 	}
 }
 
-function toLatex(str) {
-
-}

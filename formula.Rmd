@@ -19,23 +19,27 @@ onkeyup="getProperties(this.value)" name="input" size="80"/> </div> </div>
 
 <div class="form-group">
 <label for="output1">A formula nem teljesen zárójelezett alakja</label>
-<textarea readonly class="form-control" cols="60" rows="1" name="output1" id="output1"></textarea>
+<textarea readonly class="form-control" cols="60" rows="1" name="output1"></textarea>
 </div>
+<span class="math display" id="output1"></span>
 
 <div class="form-group">
 <label for="output2">A formula logikai összetettsége</label>
-<textarea readonly class="form-control" cols="60" rows="1" name="output2" id="output2"></textarea>
+<textarea readonly class="form-control" cols="60" rows="1" name="output2"></textarea>
 </div>
+<span class="math display" id="output2"></span>
 
 <div class="form-group">
 <label for="output3">A formula közvetlen részformulái</label>
-<textarea readonly class="form-control" cols="60" rows="1" name="output3" id="output3"></textarea>
+<textarea readonly class="form-control" cols="60" rows="1" name="output3"></textarea>
 </div>
+<span class="math display" id="output3"></span>
 
 <div class="form-group">
 <label for="output4">A formula részformuláinak halmaza</label>
-<textarea readonly class="form-control" cols="60" rows="1" name="output4" id="output4"></textarea>
+<textarea readonly class="form-control" cols="60" rows="1" name="output4"></textarea>
 </div>
+<span class="math display" id="output4"></span>
 
 <script type="text/javascript" src="logika.js"></script>
 

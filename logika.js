@@ -309,5 +309,7 @@ function getProperties(str) {
 		//document.forms[0].elements['output5'].value = "";
         window.setError();
 	}
+
+    MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
 }
 

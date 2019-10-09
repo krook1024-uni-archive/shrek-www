@@ -3,8 +3,8 @@ title: Logikai formula helper
 ---
 
 <form>
-Gépelje be a formulát a felső mezőbe, melynek szintaktikai tulajdonságait meg
-szeretné tekinteni. 
+Gépeld be a formulát a felső mezőbe, melynek a szintaktikai tulajdonságait
+szeretnéd megtekinteni.
 
 A logikai összekötő jelek helyett használd a következő szavakat: `and`, `or`,
 `implies`, `not`.
@@ -13,25 +13,22 @@ A logikai összekötő jelek helyett használd a következő szavakat: `and`, `o
 
 <div class="form-group">
 <label for="output1">A formula nem teljesen zárójelezett alakja</label>
-<textarea class="form-control" cols="60" rows="1" name="output1" id="output1"></textarea>
+<textarea disabled class="form-control" cols="60" rows="1" name="output1" id="output1"></textarea disabled>
 </div>
-
 
 <div class="form-group">
 <label for="output2">A formula logikai összetettsége</label>
-<textarea class="form-control" cols="60" rows="1" name="output2" id="output2"></textarea><br>
+<textarea disabled class="form-control" cols="60" rows="1" name="output2" id="output2"></textarea disabled>
 </div>
-
 
 <div class="form-group">
 <label for="output3">A formula közvetlen részformulái</label>
-<textarea class="form-control" cols="60" rows="1" name="output3" id="output3"></textarea> 
+<textarea disabled class="form-control" cols="60" rows="1" name="output3" id="output3"></textarea disabled> 
 </div>
-
 
 <div class="form-group">
 <label for="output4">A formula részformulái</label>
-<textarea class="form-control" cols="60" rows="1" name="output4" id="output4"></textarea> 
+<textarea disabled class="form-control" cols="60" rows="1" name="output4" id="output4"></textarea disabled> 
 </div>
 </form>
 

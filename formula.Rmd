@@ -2,6 +2,10 @@
 title: Logikai formula helper
 ---
 
+<style>
+  .form-control-feedback { z-index: 5; }
+</style>
+
 <form>
 Gépeld be a formulát a felső mezőbe, melynek a szintaktikai tulajdonságait
 szeretnéd megtekinteni.

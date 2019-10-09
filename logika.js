@@ -243,9 +243,23 @@ function getSubformulaSet(formula, result) {
 	return result;
 }
 
-var success = document.createElement('span');
-success.setAttribute('class', 'glyphicon glyphicon-ok form-control-feedback');
-success.setAttribute('aria-hidden', true);
+
+
+function setSuccess() {
+    var input = document.forms[0].elements['input'];
+    var success = document.createElement('span');
+    success.setAttribute('class', 'glyphicon glyphicon-ok form-control-feedback');
+    success.setAttribute('aria-hidden', true);
+
+    input.parentNode.appendChild(success);
+    input.parentNode.parentNode.setAttribute('has-feedback has-success');
+}
+
+function setError() {
+    var err = document.createElement('span');
+    err.setAttribute('class', 'glyphicon glyphicon-remove form-control-feedback');
+    err.setAttribute('aria-hidden', true);
+}
 
 function getProperties(str) {
 	var formula = tree(tokenize(str));
@@ -262,7 +276,6 @@ function getProperties(str) {
 		document.forms[0].elements['output4'].value = s.join("; ");
 		//document.forms[0].elements['output5'].value = st(tree(tokenize(str)));
         //
-        document.forms[0].elements['input'].parentNode.appendChild(window.success);
 	} else {
 		document.forms[0].elements['output1'].value = "";
 		document.forms[0].elements['output2'].value = "";

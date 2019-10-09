@@ -10,7 +10,7 @@ navbar:
       icon: fa-money-bill-alt
       href: kaparos.html
     - text: "Logika"
-      icon: fa-book-dead
+      icon: fa-book
       href: formula.html
 output:
   html_document:

@@ -246,6 +246,11 @@ function getSubformulaSet(formula, result) {
 
 function getProperties(str) {
 	var formula = tree(tokenize(str));
+
+    var succcess = document.createElement('span');
+    success.setAttribute('class', 'glyphicon glyphicon-ok form-control-feedback');
+    success.setAttribute('aria-hidden', true);
+
 	if ( formula != null ) {
 		document.forms[0].elements['output1'].value = toAbbrevated(formula);
 		document.forms[0].elements['output2'].value = getDegree(formula);
@@ -257,6 +262,8 @@ function getProperties(str) {
 		}
 		document.forms[0].elements['output4'].value = s.join("; ");
 		//document.forms[0].elements['output5'].value = st(tree(tokenize(str)));
+        //
+        document.forms[0].elements['input'].parentNode.appendChild(success);
 	} else {
 		document.forms[0].elements['output1'].value = "";
 		document.forms[0].elements['output2'].value = "";

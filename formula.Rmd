@@ -1,8 +1,5 @@
 ---
 title: Logikai formula helper
-includes:
-  in_header:
-      logika.js
 ---
 
 <form>
@@ -35,3 +32,5 @@ includes:
 
 	<textarea cols=60 rows=5 name=output4></textarea> 
 </form>
+
+<script type="text/javascript" src="logika.js"></script>

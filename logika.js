@@ -280,6 +280,7 @@ function toLatex(str) {
     str = str.replace("\u02c5", "\\lor");
     str = str.replace("\u02c4", "\\land");
     str = str.replace("\u2283", "\\supset");
+    console.log(str);
     return str;
 }
 

@@ -3,34 +3,32 @@ title: Logikai formula helper
 ---
 
 <form>
-	# Formula
-
   Gépelje be a formulát a felső mezőbe, melynek szintaktikai tulajdonságait meg
   szeretné tekinteni. 
 
   A logikai összekötő jelek helyett használd a következő szavakat: `and`, `or`,
   `implies`, `not`
 
-  <input class="form-control" onkeyup="getProperties(this.value)" name="input" size="80"> 
+  <input class="form-control" onkeyup="getProperties(this.value)" name="input" size="80" /> 
 
 	### A formula nem teljesen zárójelezett alakja
 
-	<textarea cols=60 rows=1 name=output1></textarea>
+	<textarea class="form-control" cols=60 rows=1 name=output1></textarea>
 
 
 	### A formula logikai összetettsége
 
-	<textarea cols=60 rows=1 name=output2></textarea><br>
+	<textarea class="form-control" cols=60 rows=1 name=output2></textarea><br>
 
 
 	### A formula közvetlen részformulái
 
-	<textarea cols=60 rows=1 name=output3></textarea> 
+	<textarea class="form-control" cols=60 rows=1 name=output3></textarea> 
 
 
 	### A formula részformulái
 
-	<textarea cols=60 rows=5 name=output4></textarea> 
+	<textarea class="form-control" cols=60 rows=5 name=output4></textarea> 
 </form>
 
 <script type="text/javascript" src="logika.js"></script>

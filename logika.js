@@ -243,7 +243,7 @@ function getSubformulaSet(formula, result) {
 	return result;
 }
 
-var succcess = document.createElement('span');
+var success = document.createElement('span');
 success.setAttribute('class', 'glyphicon glyphicon-ok form-control-feedback');
 success.setAttribute('aria-hidden', true);
 

@@ -176,7 +176,9 @@ function indent(sourceText) {
 function st(tree) {
 	qi=1;
 	v = showtree(tree);
-	return v == null ? "A megadott kifejezés nem lehet formula" : indent( v.dec + "\nreturn " + v.exp + ";");
+	return (v == null)
+        ? "A megadott kifejezés nem lehet formula"
+        : indent( v.dec + "\nreturn " + v.exp + ";");
 }
 
 function Quantifier(text,variable,formula) {

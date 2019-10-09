@@ -17,4 +17,5 @@ output:
     theme: cosmo
     highlight: textmate
     includes:
-        after_body: footer.html
+        - in_header: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        - after_body: footer.html

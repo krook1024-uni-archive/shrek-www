@@ -252,13 +252,17 @@ function setSuccess() {
     success.setAttribute('aria-hidden', true);
 
     input.parentNode.appendChild(success);
-    input.parentNode.parentNode.setAttribute('has-feedback has-success');
+    input.parentNode.setAttribute('class', 'has-feedback has-success');
 }
 
 function setError() {
+    var input = document.forms[0].elements['input'];
     var err = document.createElement('span');
     err.setAttribute('class', 'glyphicon glyphicon-remove form-control-feedback');
     err.setAttribute('aria-hidden', true);
+
+    input.parentNode.appendChild(err);
+    input.parentNode.setAttribute('class', 'has-feedback has-error');
 }
 
 function getProperties(str) {

@@ -40,3 +40,5 @@ onkeyup="getProperties(this.value)" name="input" size="80"/> </div> </div>
 <script type="text/javascript" src="logika.js"></script>
 
 **Készítő:** Kádek Tamás
+
+$$X \land Y$$

@@ -3,36 +3,36 @@ title: Logikai formula helper
 ---
 
 <form>
-  Gépelje be a formulát a felső mezőbe, melynek szintaktikai tulajdonságait meg
-  szeretné tekinteni. 
+Gépelje be a formulát a felső mezőbe, melynek szintaktikai tulajdonságait meg
+szeretné tekinteni. 
 
-  A logikai összekötő jelek helyett használd a következő szavakat: `and`, `or`,
-  `implies`, `not`.
+A logikai összekötő jelek helyett használd a következő szavakat: `and`, `or`,
+`implies`, `not`.
 
-  <input class="form-control" onkeyup="getProperties(this.value)" name="input" size="80" placeholder="Formula"/> 
+<input class="form-control" onkeyup="getProperties(this.value)" name="input" size="80" placeholder="Formula"/> 
 
-  <div class="form-group">
-    <label for="output1">A formula nem teljesen zárójelezett alakja</label>
-    <textarea class="form-control" cols="60" rows="1" name="output1" id="output1"></textarea>
-  </div>
-
-
-  <div class="form-group">
-    <label for="output2">A formula logikai összetettsége</label>
-    <textarea class="form-control" cols="60" rows="1" name="output2" id="output2"></textarea><br>
-  </div>
+<div class="form-group">
+<label for="output1">A formula nem teljesen zárójelezett alakja</label>
+<textarea class="form-control" cols="60" rows="1" name="output1" id="output1"></textarea>
+</div>
 
 
-  <div class="form-group">
-    <label for="output3">A formula közvetlen részformulái</label>
-    <textarea class="form-control" cols="60" rows="1" name="output3" id="output3"></textarea> 
-  </div>
+<div class="form-group">
+<label for="output2">A formula logikai összetettsége</label>
+<textarea class="form-control" cols="60" rows="1" name="output2" id="output2"></textarea><br>
+</div>
 
 
-  <div class="form-group">
-    <label for="output4">A formula részformulái</label>
-    <textarea class="form-control" cols="60" rows="1" name="output4" id="output4"></textarea> 
-  </div>
+<div class="form-group">
+<label for="output3">A formula közvetlen részformulái</label>
+<textarea class="form-control" cols="60" rows="1" name="output3" id="output3"></textarea> 
+</div>
+
+
+<div class="form-group">
+<label for="output4">A formula részformulái</label>
+<textarea class="form-control" cols="60" rows="1" name="output4" id="output4"></textarea> 
+</div>
 </form>
 
 <script type="text/javascript" src="logika.js"></script>

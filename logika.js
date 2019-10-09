@@ -252,7 +252,7 @@ function setSuccess() {
     success.setAttribute('aria-hidden', true);
 
     input.parentNode.appendChild(success);
-    input.parentNode.setAttribute('class', 'has-feedback has-success');
+    input.parentNode.setAttribute('class', 'input-group has-feedback has-success');
 }
 
 function setError() {
@@ -262,7 +262,7 @@ function setError() {
     err.setAttribute('aria-hidden', true);
 
     input.parentNode.appendChild(err);
-    input.parentNode.setAttribute('class', 'has-feedback has-error');
+    input.parentNode.setAttribute('class', 'input-group has-feedback has-error');
 }
 
 function getProperties(str) {

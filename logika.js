@@ -289,15 +289,15 @@ function getProperties(str) {
 
 	if ( formula != null ) {
         //document.getElementById('output1').innerHTML = toLatex(toAbbrevated(formula));
-		document.forms[0].elements['output1'].value = toAbbrevated(formula);
-		document.forms[0].elements['output2'].value = getDegree(formula);
-		document.forms[0].elements['output3'].value = getImmediate(formula).join("; ");
+		document.forms[0].elements['output1'].value = toLatex(toAbbrevated(formula));
+		document.forms[0].elements['output2'].value = toLatex(getDegree(formula));
+		document.forms[0].elements['output3'].value = toLatex(getImmediate(formula).join("; "));
 		var o = getSubformulaSet(formula);
 		var s = [];
 		for (var i in o) {
 			s.push(i);
 		}
-		document.forms[0].elements['output4'].value = s.join("; ");
+		document.forms[0].elements['output4'].value = toLatex(s.join("; "));
 		//document.forms[0].elements['output5'].value = st(tree(tokenize(str)));
         //
         window.setSuccess();
